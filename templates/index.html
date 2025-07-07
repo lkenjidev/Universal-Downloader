@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Downloader Universal</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="shortcut icon" href="/static/images/download.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+
+        <h1>Downloader Universal</h1>
+        <p>Baixe videos do Youtube, Instagram, TikTok, Twitter, Facebook, Reddit e mais!</p><br>
+
+        <form method="POST" action="/download">
+            <label for="url">Link do vídeo:</label>
+            <input type="text" name="url" id="url"><br><br>
+
+            <label for="formato">Formato:</label>
+            <select name="formato" id="formato" required>
+                <option value="mp4">MP4 (Vídeo)</option>
+                <option value="mp3">MP3 (Áudio)</option>
+            </select><br><br>
+
+            <label for="qualidade">Qualidade:</label>
+            <select name="qualidade" id="qualidade" required>
+                <option value="alta">Alta (1080p+)</option>
+                <option value="media">Média (480p)</option>
+                <option value="audio">Somente Áudio</option>
+            </select><br><br>
+
+            <button type="submit">Baixar</button>
+        </form>
+    </div>
+</body>
+</html>
