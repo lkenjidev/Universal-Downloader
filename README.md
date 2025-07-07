@@ -2,7 +2,7 @@
 
 Este é um projeto simples de uma aplicação web feita com **Python (Flask)** que permite baixar vídeos ou áudios (MP4/MP3) de plataformas como **YouTube**, **Instagram**, **TikTok**, **Twitter** e muitas outras, usando a biblioteca `yt_dlp`.
 
-⚠️ **Aviso legal**
+⚠️ **Aviso legal**:
 Este projeto é apenas para fins educacionais. 
 
 ## 🛠️ Tecnologias usadas
@@ -28,5 +28,4 @@ Adicione o caminho do ffmpeg à variável de ambiente PATH
 
 Por fim, execute o arquivo python app.py.
 
-🙋‍♂️ Autor
 Desenvolvido por Lucas Kenji.
